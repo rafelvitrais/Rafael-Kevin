@@ -9,7 +9,33 @@
 </head>
 
 <body>
-
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <p>Enter your name: <label id="name-label"><input id="name" type="text" placeholder="Type your name here" required>Name</label> </p>
+        <p>Enter your email: <label id="email-label"><input id="email" type="email" placeholder="Type your email here" required>Email</label></p>
+        <p>Enter your number: <label id="number-label"><input id="number" type="number" min="0" max="99" placeholder="age" required>Number</label> </p>
+        <p>Enter your Gender:
+            <label id="number-label">
+                <select id="dropdown">
+                    <option vale="male">Male</option>
+                    <option value="female">Female</option>
+                    <option></option>
+                </select>
+            </label>
+        </p>
+        <h3>Do you want to learn Spanish?</h3>
+        <label name="radio"><input type="radio" name="ratio" value="0"/>Yes, I do!</label>
+        <label name="radio"><input type="radio" name="ratio" value="1"/>May be later</label>
+        <h3>What would you like to learn in Spanih?</h3>
+        <input type="checkbox" id="speak" name="speak" value="0" /> <label>To speak</label>
+        <input type="checkbox" id="vocabulary" name="vocabulary" value="1" /> <label>The vocabulary</label>
+        <input type="checkbox" id="read" name="read" value="3" /> <label>To read</label>
+        <h3>Why do you want to learn Spanish?</h3>
+        <textarea id="text" name="name" rows="4" placeholder="please type what motivate you to learn Spanish"></textarea>
+        <button id="submit">submit</button>
+    </form>
+    <Text </form>
 </body>
 
 </html>
